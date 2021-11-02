@@ -9,8 +9,8 @@ This project utilizes the face_recognition library to help people with Dementia 
 3. Run the ipython notebook using the cse598_gpu environment.
 4. Folder structure 
 
-	.
-	├── ...
+	.    
+	├── ...   
 	├── known_faces         		# root folder of known face with images  
 	│   ├── person1         		# images of person1  
 	│   ├── person2         		# images of person2  
