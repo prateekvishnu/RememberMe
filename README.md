@@ -1,4 +1,4 @@
-**Remember Friends and Family project**
+**Remember Friends and Family project**  
 This project utilizes the face_recognition library to help people with Dementia remember family and friends. This project is an application that uses facial recognition to identify people and match them with a picture of friends or relatives that are uploaded to the application. 
 
 
@@ -22,15 +22,15 @@ This project utilizes the face_recognition library to help people with Dementia 
 **Resources:**
 1. Project Library: https://pypi.org/project/face-recognition/
 2. Running on CUDA library: https://sparkle-mdm.medium.com/python-real-time-facial-recognition-identification-with-cuda-enabled-4819844ffc80
-3. Run dlib using CUDA: GPU dlib and face_recognition: https://gist.github.com/MikeTrizna/4964278bb6378de72ba4b195553a3954
-	git clone https://github.com/davisking/dlib.git
-	cd dlib
-	mkdir build
-	cd build
-	cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1
-	cmake --build .
-	cd ..
-	python setup.py install --set DLIB_USE_CUDA=1
+3. Run dlib using CUDA: GPU dlib and face_recognition: https://gist.github.com/MikeTrizna/4964278bb6378de72ba4b195553a3954  
+	git clone https://github.com/davisking/dlib.git  
+	cd dlib  
+	mkdir build  
+	cd build  
+	cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1  
+	cmake --build .  
+	cd ..  
+	python setup.py install --set DLIB_USE_CUDA=1  
 4. Resolving gcc error: - Install alternative gcc compiler https://github.com/ethereum-mining/ethminer/issues/731
 
 
